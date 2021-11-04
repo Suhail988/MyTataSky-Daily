@@ -29,17 +29,17 @@ jobs:
     - name: TS Daily Loop  
       run: |
 
-                       git config --global user.name "nparamanik1999"
-                       git config --global user.email "nparamanik1999@gmail.com"
-                       git clone https://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@github.com/nparamanik1999/MyTataSky-Daily
+                       git config --global user.name "suhail988"
+                       git config --global user.email "suhailsofiyan@gmail.com"
+                       git clone https://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@github.com/suhail988/MyTataSky-Daily
                        cd MyTataSky-Daily/code_samples
                        chmod 755 *
                        sudo apt-get install expect -y
                        ./TSlogin.exp
-                       git clone https://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@gist.github.com/1418b41fa2ba36b3c302d98071bdad00
-                       rm 1418b41fa2ba36b3c302d98071bdad00/mytatasky.m3u
-                       mv *.m3u 1418b41fa2ba36b3c302d98071bdad00/
-                       cd 1418b41fa2ba36b3c302d98071bdad00
+                       git clone https://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@gist.github.com/de02b046cf194977e469df2840d81421
+                       rm de02b046cf194977e469df2840d81421/mytatasky.m3u
+                       mv *.m3u de02b046cf194977e469df2840d81421/
+                       cd de02b046cf194977e469df2840d81421
                        git add .
                        git commit -m "Playlist has been updated."
                        git push

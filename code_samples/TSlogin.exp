@@ -89,18 +89,18 @@ send -- ""
 expect -exact " "
 send -- ""
 expect -exact "   "
-send -- "6291635090"
-expect -exact "6291635090"
+send -- "9840092835"
+expect -exact "9840092835"
 send -- "\r"
 expect -exact "\r
 Enter your Subscriber Id: "
-send -- "1442405690"
-expect -exact "1442405690"
+send -- "1368261945"
+expect -exact "1368261945"
 send -- "\r"
 expect -exact "\r
 Enter your password: "
-send -- "Jdey@7985#$\r"
-expect -exact "Jdey@7985#$\r
+send -- "Tatasky@1234\r"
+expect -exact "Tatasky@1234\r
 Trying to Login with password ............\r
 \r
  \r
